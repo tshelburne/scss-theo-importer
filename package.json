@@ -1,13 +1,25 @@
 {
   "name": "scss-theo-importer",
   "version": "0.1.0",
-  "description": "",
+  "description": "Basic importer for using Theo design token files directly in Sass",
   "main": "src/index.js",
+  "author": "Tim Shelburne <shelburt02@gmail.com> (https://github.com/tshelburne/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tshelburne/scss-theo-importer.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "theo",
+    "design-tokens",
+    "sass"
+  ],
+  "bugs": {
+    "url": "https://github.com/tshelburne/scss-theo-importer/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Tim Shelburne <shelburt02@gmail.com> (https://github.com/tshelburne/)",
-  "license": "MIT",
   "dependencies": {
     "theo": "^8.1.5"
   }
